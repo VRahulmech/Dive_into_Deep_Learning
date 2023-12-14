@@ -12,5 +12,6 @@ t = torch.tensor(2.0, requires_grad=True)
 y = (t-1)*(t-2)
 
 y.backward()
+#try
 print(t.grad)
 
